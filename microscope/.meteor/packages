@@ -21,7 +21,13 @@ twbs:bootstrap
 coffeescript
 iron:router
 sacha:spin
-ian:accounts-ui-bootstrap-3
+#ian:accounts-ui-bootstrap-3
 accounts-password
 audit-argument-checks
 check
+useraccounts:bootstrap
+useraccounts:iron-routing
+accounts-weibo
+service-configuration
+leonzhang1109:accounts-qq
+leonzhang1109:accounts-wechat

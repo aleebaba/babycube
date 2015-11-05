@@ -76,7 +76,9 @@ Router.route('/posts/:_id/edit', {
 });
 
 Router.route('/submit', {name: 'postSubmit'});
-Router.route('/login',{name: 'login'});
+//Router.route('/login',{name: 'login'});
+AccountsTemplates.configureRoute("signIn");
+AccountsTemplates.configureRoute("signUp");
 
 var requireLogin = function() {
   if (! Meteor.user()) {
